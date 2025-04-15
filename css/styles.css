@@ -67,6 +67,10 @@ a img{
     padding-bottom: 10px;
 }
 
+a[hreflang="ja"]::after{
+    content: "[en japonais]";
+}
+
 /*------------------------------------------------------------------------------
    Modules
 ------------------------------------------------------------------------------*/
@@ -124,7 +128,7 @@ header a{
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
 .sports{
-    background: url(../images/fond/bicycles.png);
+    background: url(../images/fond/bicycles.png) fixed;
 }
 
 /*---------------------------------------
@@ -134,7 +138,7 @@ header a{
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
 .web{
-    background: url(../images/fond/science.png);
+    background: url(../images/fond/science.png) fixed;
 }
 
 .web img{
@@ -157,6 +161,8 @@ header a{
     background-color: darkred;
 }
 
+
+
 /*---------------------------------------
              Section photographie
  ---------------------------------------*/
@@ -164,7 +170,7 @@ header a{
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
 .photos{
-    background: url(../images/fond/fond.jpg) no-repeat center/cover;
+    background: url(../images/fond/fond.jpg) no-repeat fixed center/cover;
 }
 
 .photos .images{
@@ -186,4 +192,30 @@ header a{
     Icône retour
 ---------------------------------------*/
 
+.haut{
+    width: 40px;
+    height: 40px;
 
+    background-color: rgba(255, 255, 255, 80%);
+
+    border: solid 4px #fff;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+    position: fixed;
+    bottom: 20px;
+    right: 15vw;
+}
+
+
+.haut:hover{ 
+    color: darkorange;
+    border-color: darkorange;
+}
+
+.material-symbols-outlined{
+    font: 4rem;
+}
