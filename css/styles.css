@@ -22,16 +22,50 @@ body{
     color: #fff;
 }
 
+div{
+    margin-right: auto;
+    margin-left: auto;
+}
+
 a{
     color: #fff;
     text-decoration: none;
+
+    padding: 10px 0 10px;
 }
 
 a:hover{
     color: darkorange;
 }
 
+h2{
+    font: 400 normal 3.2rem "Monoton", sans-serif;
+    text-transform: uppercase;
 
+    margin: 0;
+}
+
+span{
+    font: 1.7rem "Oranienbaum", serif;
+    text-transform: none;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.images a{
+    width: 200px;
+    text-align: center;
+}
+
+a img{
+    width: 100%;
+    padding-bottom: 10px;
+}
 
 /*------------------------------------------------------------------------------
    Modules
@@ -41,16 +75,10 @@ a:hover{
 
 header, section{
     display: flex;
-    min-height: 100vh;
-    min-width: 100vw;
-}
+    height: 100vh;
 
-/*div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-}*/
+}
 
 .boite{
     width: 800px;
@@ -65,11 +93,21 @@ header, section{
 
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
-header{
+header{  
     text-align: center;
+    position: relative;
 }
 
+h1{
+    font: 400 normal 8rem "Monoton", sans-serif;
+}
 
+header a{
+    position: absolute;
+    bottom: 40px;
+    right: 45%;
+    left: 45%;
+}
 
 /*---------------------------------------
                 Section Générale
@@ -79,16 +117,15 @@ header{
 
 
 
-
 /*---------------------------------------
                 Section sports
  ---------------------------------------*/
 
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
-
-
-
+.sports{
+    background: url(../images/fond/bicycles.png);
+}
 
 /*---------------------------------------
                 Section web
@@ -96,11 +133,29 @@ header{
 
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
+.web{
+    background: url(../images/fond/science.png);
+}
 
+.web img{
+    width: 50%;
+}
 
+.web .images{
+    margin-bottom: 50px;
+}
 
+.web a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
-
+.lien_float a{
+    padding: 10px;
+    background-color: darkred;
+}
 
 /*---------------------------------------
              Section photographie
@@ -108,7 +163,24 @@ header{
 
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
+.photos{
+    background: url(../images/fond/fond.jpg) no-repeat center/cover;
+}
 
+.photos .images{
+    display: flex;
+    flex-direction: column;
+}
+
+.photos img{
+    width: 30%;
+}
+
+.photos a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*---------------------------------------
     Icône retour
