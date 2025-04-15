@@ -1,0 +1,117 @@
+/*----------------------------------------------------------------------------
+    Reset
+----------------------------------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+
+/*------------------------------------------------------------------------------
+   Base
+------------------------------------------------------------------------------*/
+
+body{
+    background: #000 url(../images/fond/global.png) repeat;
+    font: 1.6rem "Oranienbaum", serif;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkorange;
+}
+
+
+
+/*------------------------------------------------------------------------------
+   Modules
+------------------------------------------------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+header, section{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+/*div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.boite{
+    width: 800px;
+    padding: 48px;
+    background-color: rgba(0, 0, 0, 80%);
+    border-radius: 10px;
+}
+
+/*---------------------------------------
+                header
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+header{
+    text-align: center;
+}
+
+
+
+/*---------------------------------------
+                Section Générale
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+
+
+
+/*---------------------------------------
+                Section sports
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+
+
+
+
+/*---------------------------------------
+                Section web
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+
+
+
+
+
+
+/*---------------------------------------
+             Section photographie
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+
+
+/*---------------------------------------
+    Icône retour
+---------------------------------------*/
+
+
