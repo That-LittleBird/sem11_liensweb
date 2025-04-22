@@ -5,6 +5,8 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%;
+
+    scroll-behavior: smooth;
 }
 
 *,*:before,*:after{
@@ -38,6 +40,59 @@ a:hover{
     color: darkorange;
 }
 
+
+
+/*------------------------------------------------------------------------------
+   Modules
+------------------------------------------------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+header, section{
+    display: flex;
+    height: 100vh;
+
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.boite{
+    width: 800px;
+    padding: 48px;
+    background-color: rgba(0, 0, 0, 80%);
+    border-radius: 10px;
+}
+
+/*---------------------------------------
+                header
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+header{  
+    text-align: center;
+    position: relative;
+
+    scroll-behavior: smooth;
+}
+
+h1{
+    font: 400 normal 8rem "Monoton", sans-serif;
+}
+
+header a{
+    position: absolute;
+    bottom: 40px;
+    right: 45%;
+    left: 45%;
+}
+
+/*---------------------------------------
+                Section Générale
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
 h2{
     font: 400 normal 3.2rem "Monoton", sans-serif;
     text-transform: uppercase;
@@ -70,56 +125,6 @@ a img{
 a[hreflang="ja"]::after{
     content: "[en japonais]";
 }
-
-/*------------------------------------------------------------------------------
-   Modules
-------------------------------------------------------------------------------*/
-
-/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
-
-header, section{
-    display: flex;
-    height: 100vh;
-
-    align-items: center;
-}
-
-.boite{
-    width: 800px;
-    padding: 48px;
-    background-color: rgba(0, 0, 0, 80%);
-    border-radius: 10px;
-}
-
-/*---------------------------------------
-                header
- ---------------------------------------*/
-
-/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
-
-header{  
-    text-align: center;
-    position: relative;
-}
-
-h1{
-    font: 400 normal 8rem "Monoton", sans-serif;
-}
-
-header a{
-    position: absolute;
-    bottom: 40px;
-    right: 45%;
-    left: 45%;
-}
-
-/*---------------------------------------
-                Section Générale
- ---------------------------------------*/
-
-/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
-
-
 
 /*---------------------------------------
                 Section sports
